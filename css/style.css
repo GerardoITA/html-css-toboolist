@@ -64,6 +64,21 @@ button {
     left: 15%;
 }
 /* List ------------------ */
+.check::before {
+    content: "☑";
+    color: lightgreen;
+}
+.cross::before {
+    content: "☒";
+    color: red
+}
+.check, .cross {
+    display: block;
+}
+.item   {
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
 .list {
     background-color: white;
     height: 55vh;
@@ -74,10 +89,13 @@ button {
 
 }
 .listtext {
-    margin: 5% 10%;
+    position: absolute;
+    top: 5%;
+    left: 8%;
 }
 .curtain {
     font-size: 30px;
     font-weight: bold;
-    color: rgb(60, 60, 60)
+    color: rgb(60, 60, 60);
+    margin-top: 15%;
 }
