@@ -73,7 +73,7 @@ button {
     color: red
 }
 .check, .cross {
-    display: block;
+    display: inline-block
 }
 .item   {
     font-size: 20px;
@@ -98,4 +98,31 @@ button {
     font-weight: bold;
     color: rgb(60, 60, 60);
     margin-top: 15%;
+}
+/* Tags ------------------ */
+.tag {
+    padding: 4px 8px;
+    border-radius: 10%;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 1%;
+}
+.editorial {
+    background-color: rgb(86, 166, 236);
+}
+.goals {
+    background-color: fuchsia;
+}
+.recruiting {
+    background-color: rgb(15, 100, 79);
+}
+.mobile {
+    background-color: orange;
+}
+.sales {
+    background-color: greenyellow;
+}
+.website {
+    background-color: rebeccapurple;
 }
